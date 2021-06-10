@@ -1,0 +1,5 @@
+.vscode/
+data/
+archive/
+processed_data.npy
+processed_labels.npy

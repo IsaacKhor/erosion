@@ -21,3 +21,6 @@ Organisation:
 	- There are all just constants in the simulation matlab code
 - Use the `preprocess-images.py` script to, well, preprocess images
 - Check the `simple_cnn_example` notebook on how to train a model using this dataset
+- All the figures were plotted with `predict.py`, but the code in there is
+  was initially literally copy-pasted from a `python -i` session, so could
+  use more logical reworks

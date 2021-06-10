@@ -1,4 +1,5 @@
 .vscode/
+.ipynb_checkpoints/
 data/
 archive/
 processed_data.npy

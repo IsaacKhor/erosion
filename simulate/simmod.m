@@ -6,7 +6,7 @@ close all
 
 % Erosion and deposition depending on thresholds selected.
 
-cd('/Users/isaackhor/code/physics-erosion/generated/5holes/');  %comment out if you don't want snap shots.
+cd('/Users/isaackhor/code/physics-erosion/data/5holes/');  %comment out if you don't want snap shots.
 
 start_sim_no = 1;
 nmax = 3;  % number of simulations examples you want
@@ -147,7 +147,7 @@ for sim_no= start_sim_no:nmax
         phi_ave(tt) = sum(sum(phi));
         
         % write jpg or bmp depending on resolution needed
-        filewrite =  strcat(int2str(sim_no),'-',int2str(tt),'.jpg');
+        filewrite =  strcat(int2str(sim_no),'/',int2str(tt),'.jpg');
         imwrite(phi,filewrite);
         
         %     Changed the conductivity contrast to be 100 times lower.
